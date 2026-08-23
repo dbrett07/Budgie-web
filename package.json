@@ -1,0 +1,17 @@
+{ 
+    "name" : "budgie-web", 
+    "version": "1.0.0",
+    "description": "",
+    "private" : true, 
+    "repository": {
+        "type": "git", 
+        "url": "git+https://github.com/dbrett07/Budgie-web.git"
+    },
+    "workspaces" : [
+        "apps/*", 
+        "packages/*"
+    ], 
+    "devDependencies": {
+        "typescript" : "^7.0.2"
+    }
+}
