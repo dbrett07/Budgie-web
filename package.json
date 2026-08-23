@@ -1,17 +1,13 @@
-{ 
-    "name" : "budgie-web", 
-    "version": "1.0.0",
-    "description": "",
-    "private" : true, 
-    "repository": {
-        "type": "git", 
-        "url": "git+https://github.com/dbrett07/Budgie-web.git"
-    },
-    "workspaces" : [
-        "apps/*", 
-        "packages/*"
-    ], 
-    "devDependencies": {
-        "typescript" : "^7.0.2"
-    }
+{
+  "name": "Budgie-web",
+  "version": "1.0.0",
+  "scripts": {
+    "install-all": "npm install --prefix client && npm install --prefix server",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
 }

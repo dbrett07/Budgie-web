@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2025",                          /* Modern Node.js runtime target */
+    "module": "NodeNext",                        /* Handles modern ESM imports natively */
+    "moduleResolution": "NodeNext",              /* Correct module matching for Node */
+    "outDir": "./dist",                          /* Where compiled JavaScript goes */
+    "rootDir": "./src",                          /* Where your source TypeScript code lives */
+    "strict": true,                              /* Enables strong type checking */
+    "esModuleInterop": true,                     /* Allows importing CommonJS modules cleanly */
+    "skipLibCheck": true,                        /* Speeds up compilation by skipping declaration files */
+    "forceConsistentCasingInFileNames": true     /* Prevents case-sensitivity bugs between OS environments */
+  },
+  "include": ["src/**/*"]                        /* Only compiles files inside server/src/ */
+}
