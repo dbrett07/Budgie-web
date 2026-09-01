@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "budgie",
+    "password": "<deimsk1r.>",
+    "database": "budgiedb",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "budgie",
+    "password": "<deimsk1r.>",
+    "database": "budgiedb",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "budgie",
+    "password": "<deimsk1r.>",
+    "database": "budgiedb",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

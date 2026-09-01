@@ -9,6 +9,7 @@ if ( !databaseUrl ) {
 }
 
 export const sequelize = new Sequelize(databaseUrl, {
+    host : "localhost",
     dialect : "postgres", 
     logging : console.log, 
     pool : {

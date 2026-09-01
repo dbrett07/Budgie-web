@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.env 
+budgie-c153d-firebase-adminsdk-fbsvc-81d4710e49.json

@@ -8,7 +8,11 @@
     "strict": true,                              /* Enables strong type checking */
     "esModuleInterop": true,                     /* Allows importing CommonJS modules cleanly */
     "skipLibCheck": true,                        /* Speeds up compilation by skipping declaration files */
-    "forceConsistentCasingInFileNames": true     /* Prevents case-sensitivity bugs between OS environments */
+    "forceConsistentCasingInFileNames": true,     /* Prevents case-sensitivity bugs between OS environments */
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/types"
+    ]
   },
-  "include": ["src/**/*"]                        /* Only compiles files inside server/src/ */
+  "include": ["src/**/*"],                       /* Only compiles files inside server/src/ */
 }
